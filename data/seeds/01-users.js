@@ -7,7 +7,13 @@ exports.seed = function(knex) {
       return knex('users').insert([
         {username: "Frodo", password: "OneRing"},
         {username: "Gandalf", password: "WizrdzRule"},
-        {username: "Bilbo", password: "HobbitzRule"}
+        {username: "Bilbo", password: "HobbitzRule"},
+        {username: "Frodo2", password: "OneRing"},
+        {username: "Gandalf2", password: "WizrdzRule"},
+        {username: "Bilbo2", password: "HobbitzRule"},
+        {username: "Frodo3", password: "OneRing"},
+        {username: "Gandalf43", password: "WizrdzRule"},
+        {username: "Bilbo3", password: "HobbitzRule"}
       ]);
     });
 };
